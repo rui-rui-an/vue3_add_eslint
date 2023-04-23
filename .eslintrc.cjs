@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-essential',
-    'standard-with-typescript'
+    'standard-with-typescript',
+    'plugin:prettier/recommended' // 新增
   ],
   overrides: [
   ],
